@@ -1,0 +1,607 @@
+.freelancer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    background-image: url(image/pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 76% 80%, 0 100%, 0% 70%, 0% 35%, 0 0);
+
+}
+.freelancer .freelancertxt{
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+.freelancer .freelancerp{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+.freelancer .freelancerbtn{
+    padding: 15px 24px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color:#3DCFD3;
+}
+.freelancer .freelancerbtn:hover{
+    transform: scale(1.1);
+}
+.space1{
+    width: 100%;
+    height: 150px;
+}
+/*//////////// section-5 client //////*/
+.client{
+    width: 100%;
+    height: auto;
+    padding-bottom: 120px;
+}
+.client .client1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 40px 0px;
+    margin-bottom: 70px;
+}
+.client .client1 .client1h{
+    font-size:25px;
+    font-weight: bolder;
+    margin-bottom: 27px;
+}
+.client .client2{
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.client .client2 .client2leftarow{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #3DCFD3;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.client .client2 .client2rightarow{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #3DCFD3;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.client .client2 .client21{
+    margin: 0% auto;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.client .client2 .client21 .clientimg{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    }
+.client .client2 .client21 .client21p{
+    font-size: 14px;
+    opacity: 0.7;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.client .client2 .client21 .client21pa{
+    opacity: 0.9;
+}
+/* ////////// --- work---- ///////// */
+.work{
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(0, 0, 0, 0.911);  */
+    /* color: white; */
+    background-color: #F2F2F2;
+    font-family: sans-serif;
+    padding: 100px 0px;
+    clip-path: polygon(0 0, 100% 0, 100% 47%, 100% 100%, 74% 94%, 28% 98%, 0 100%, 0 51%);
+
+}
+ .work .work1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px; 
+}
+.work .work1 .work1p1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.work .work1 .work1p2{
+}
+/* work2  */
+.work .work2{
+    width: 100%;
+    height: auto;
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work .work2 .work21{
+    width: 30%;
+    height:auto ;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+.work .work2 .work21    .img1:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.work .work2 .work22{
+    width: 40%;
+    height:auto ;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+.work .work2 .work22   .img2:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.work .work2 .work23{
+    width: 30%;
+    height:auto ;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+.work .work2 .work23    .img3:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+/* ----------------contact us--------------- */
+.contact{
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    padding: 100px 0px;
+}
+.contact .contact1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact .contact1 .contact1h{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+/* contact-2 */
+.contact .contact2{
+    width: 100%;
+    height: auto;
+    padding: 150px 0px 0px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* call */
+.contact .contact2 .contact2call{
+    /* outline: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    line-height: 2rem;
+    width: 30%;
+    padding: 50px 0px;
+}
+.contact .contact2 .contact2call  .callicon{
+    padding: 25px 25px; 
+    /* width: 10%;   */
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background-color: #3dced3af;
+    font-size: 25px;
+}
+.contact .contact2 .contact2call  .contact2callh{
+    font-size: 20px;
+}
+.contact .contact2 .contact2call .contact2callnmbr{
+    opacity: 0.6;
+}
+/* email */
+.contact .contact2 .contact2email{
+    /* outline: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    line-height: 2rem;
+    width: 30%;
+    padding: 50px 0px;
+}
+
+.contact .contact2 .contact2email  .emailicon{
+    padding: 25px 25px; 
+    /* width: 10%;   */
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background-color: #3dced3af;
+    font-size: 25px;
+}
+.contact .contact2 .contact2email  .contact2emailh {
+    font-size: 20px;
+}
+.contact .contact2 .contact2email .contact2emailp{
+    opacity: 0.6;
+}
+/* address */
+.contact .contact2 .contact2address{
+    /* outline: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    line-height: 2rem;
+    width: 30%;
+    padding: 50px 0px;
+}
+
+.contact .contact2 .contact2address  .addressicon{
+    padding: 28px 28px; 
+    /* width: 10%;   */
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background-color: #3dced3af;
+    font-size: 20px;
+}
+.contact .contact2 .contact2address  .contact2addressh {
+    font-size: 20px;
+}
+.contact .contact2 .contact2address .contact2addressp{
+    opacity: 0.6;
+    text-align: center;
+}
+/* contact3 */
+.contact .contact3{
+    width:100%;
+    height: auto;
+    margin-top: 50px;
+    /* outline: 2px solid black; */
+}
+.contact .contact3 .contact3form{
+    width: 100%;
+    height: auto;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+.contact .contact3 .contact3form .name{
+    width: 60%;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contact .contact3 .contact3form .email{
+    width: 60%;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contact .contact3 .contact3form .txtarea{
+    width: 60%;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contact .contact3 .contact3form .sbmitbtn{
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #3dced3d3;
+    border: none;
+    cursor: pointer;
+}
+/* footer */
+.fter{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+/* end of coding */
+/*.............. Responsive (500-900) ...................*/
+@media only screen and (min-width:500px) and (max-width:900px) {
+    .freelancer{
+        padding: 60px 0px;
+    }
+    .freelancer .freelancertxt{
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: white;
+    }
+    .freelancer .freelancerp{
+        margin-bottom: 20px;
+        font-size: 17px;
+        font-family: sans-serif;
+        color: white;
+    }
+    .freelancer .freelancerbtn{
+        padding: 15px 24px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+        font-size: 16px;
+    }
+    /* ....client.... */
+    .client .client2 .client21{
+        margin: 0% auto;
+        width: 75%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .client .client2 .client21 .client21p{
+        font-size: 10px;
+        opacity: 0.7;
+        line-height: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .client .client2 .client21 .client21p{
+        font-size: 11px;
+        opacity: 0.7;
+        line-height: 1.6rem;
+        margin-bottom: 20px;
+    }
+    .client .client2 .client2leftarow{
+        margin-left: 20px;
+    }
+    .client .client2 .client2rightarow{
+        margin-right: 20px;
+    }
+/* ////////// --- work---- ///////// */
+ .work .work1{
+    padding-bottom: 150px; 
+}
+.work .work1 .work1p1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.work .work1 .work1p2{
+    font-size: 14px;
+}
+/* work2  */
+.work .work2{
+    width: 100%;
+    height: auto;
+    /* outline: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work .work2 .work21{
+    width: 50%;
+    height:auto ;
+    margin-bottom: 20px;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+.work .work2 .work22{
+    width: 50%;
+    height:auto ;
+    margin-bottom: 20px;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+.work .work2 .work23{
+    width: 50%;
+    height:auto ;
+    margin-bottom: 20px;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+/* ----------------contact us--------------- */
+
+.contact .contact1 .contact1h{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+/* contact-2 */
+.contact .contact2{
+    width: 100%;
+    height: auto;
+    padding: 150px 0px 0px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* call */
+.contact .contact2 .contact2call{
+    /* outline: 2px solid black; */
+    width: 60%;
+    padding: 50px 20px;
+}
+/* email */
+.contact .contact2 .contact2email{
+    /* outline: 2px solid black; */
+    width: 60%;
+    padding: 50px 20px;
+}
+/* address */
+.contact .contact2 .contact2address{
+    /* outline: 2px solid black; */
+    width: 60%;
+    padding: 50px 20px;
+}
+
+}
+/*.............. Responsive (300-500) ...................*/
+@media only screen and (min-width:300px) and (max-width:500px) {
+    .freelancer{
+        padding: 70px 0px;
+    }
+    .freelancer .freelancertxt{
+        margin-bottom: 14px;
+        font-size: 19px;
+        font-family: sans-serif;
+        color: white;
+    }
+    .freelancer .freelancerp{
+        margin-bottom: 15px;
+        font-size: 10px;
+        font-family: sans-serif;
+        color: white;
+    }
+    .freelancer .freelancerbtn{
+        padding: 10px 15px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        font-size: 13px;
+    }
+    /* client */
+    .client .client1 .client1h{
+        font-size:20px;
+    }
+    .client .client1 .client1p{
+        font-size:9px;
+    }
+    .client .client2 .client2leftarow{
+        margin-left: 20px;
+    }
+    .client .client2 .client2rightarow{
+        margin-right: 20px;
+    }
+    .client .client2 .client21{
+        margin: 0% auto;
+        width: 70%;
+    }
+    .client .client2 .client21 .clientimg{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        }
+    .client .client2 .client21 .client21p{
+        font-size: 11px;
+        opacity: 0.7;
+        line-height: 1.2rem;
+    }
+    /* ////////// --- work---- ///////// */
+ .work .work1{
+    padding-bottom: 150px; 
+}
+.work .work1 .work1p1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.work .work1 .work1p2{
+    font-size: 9px;
+}
+/* work2  */
+.work .work2{
+    width: 100%;
+    height: auto;
+    /* outline: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work .work2 .work21{
+    width: 50%;
+    height:auto ;
+    margin-bottom: 20px;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+.work .work2 .work22{
+    width: 50%;
+    height:auto ;
+    margin-bottom: 20px;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+.work .work2 .work23{
+    width: 50%;
+    height:auto ;
+    margin-bottom: 20px;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+/* ----------------contact us--------------- */
+
+.contact .contact1 .contact1h{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact .contact1 .contact1p{
+    font-size: 10px;
+}
+/* contact-2 */
+.contact .contact2{
+    width: 100%;
+    height: auto;
+    padding: 150px 0px 0px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* call */
+.contact .contact2 .contact2call{
+    /* outline: 2px solid black; */
+    width: 60%;
+    padding: 50px 20px;
+}
+/* email */
+.contact .contact2 .contact2email{
+    /* outline: 2px solid black; */
+    width: 60%;
+    padding: 50px 20px;
+}
+/* address */
+.contact .contact2 .contact2address{
+    /* outline: 2px solid black; */
+    width: 60%;
+    padding: 50px 20px;
+}
+
+}
